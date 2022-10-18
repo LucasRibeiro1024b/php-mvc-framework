@@ -6,7 +6,11 @@
     "autoload": {
         "psr-4": {
             "Lucas\\PhpMvcFramework\\": "src/"
-        }
+        },
+        "files": [
+            "core/controller.php",
+            "core/get.php"
+        ]
     },
     "authors": [
         {
