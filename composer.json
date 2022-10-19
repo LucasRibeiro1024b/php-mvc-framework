@@ -8,8 +8,11 @@
             "Lucas\\PhpMvcFramework\\": "src/"
         },
         "files": [
+            "config/middleware.php",
             "core/controller.php",
-            "core/get.php"
+            "core/get.php",
+            "core/auth.php",
+            "core/config.php"
         ]
     },
     "authors": [
