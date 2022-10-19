@@ -5,14 +5,17 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Lucas\\PhpMvcFramework\\": "src/"
+            "Lucas\\PhpMvcFramework\\": "src/",
+            "app\\controller\\": "app/controller"
         },
         "files": [
             "config/middleware.php",
+            "config/permissions.php",
+            "core/auth.php",
+            "core/config.php",
             "core/controller.php",
             "core/get.php",
-            "core/auth.php",
-            "core/config.php"
+            "core/view.php"
         ]
     },
     "authors": [
